@@ -1,0 +1,8 @@
+{
+    "name": "slick2/namesilo",
+    "autoload": {
+        "psr-0" : {
+            "Slick2\\Namesilo" : "src"
+        }
+    }
+}
