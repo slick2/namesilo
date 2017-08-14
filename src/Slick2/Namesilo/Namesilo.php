@@ -21,8 +21,8 @@ class Namesilo {
     public function __construct($url, $key, $debug = false) {
         
         
-            $this->url = $url;
-            $this->key = $key;
+          $this->url = $url;
+          $this->key = $key;
         
     }
 
@@ -670,8 +670,4 @@ class Namesilo {
             return false;
     }
 
-    //load codeigniter instance
-    public function __get($var) {
-        return get_instance()->$var;
-    }
 }
